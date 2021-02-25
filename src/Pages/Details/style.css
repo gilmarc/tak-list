@@ -1,0 +1,79 @@
+.container-details{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(242,242,242);
+}
+
+.subcontainer-details{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1.5px rgba(171,171,171,0.3);
+    background: #fff;
+}
+
+.subcontainer-details input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #797979;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.subcontainer-details textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #797979;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 17px;
+    resize: none;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-buttons button{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 17px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 25px;
+    margin: 0 10px;
+}
+
+.container-buttons button:first-child {
+    background: #3498db;
+}
+
+.container-buttons button:first-child:hover{
+    background: #1e27db;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.4);
+    transition: 0.2s;
+}
+
+.container-buttons button:last-child {
+    background: #fc0d0d;
+}
+
+.container-buttons button:last-child:hover{
+    background: #AD0D0D;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.4);
+    transition: 0.2s;
+}
